@@ -1,0 +1,55 @@
+.list-group {
+  .list-group-item {
+    padding: 0.25rem 0.5rem;
+  }
+  &.border-0 {
+    .list-group-item {
+      @extend .border-0;
+    }
+  }
+  &.custom-list-group {
+    .list-group-item {
+      background-color: transparent;
+      color: $gray-600;
+      border-radius: 0;
+      .active {
+        background-color: white;
+        border-color: rgba(0, 0, 0, 0.125);
+        color: $gray-600;
+        font-weight: normal;
+      }
+    }
+    @include media-breakpoint-down(md){
+      display: block;
+      padding: 0 1rem;
+      .list-group-item{
+        margin-bottom: 1rem;
+        border-left-width: 1px ;
+      }
+      .card-body{
+        margin-top: 0 !important;
+      }
+    }
+  }
+
+  &.social-media {
+    a {
+      font-size: $font-size-large;
+    }
+  }
+}
+
+.list-unstyled {
+  list-style-type: disc;
+  font-family: $secondary-font-family;
+  li {
+    padding-left: 0.5rem;
+    [lang="ar"] & {
+      padding-left: 0;
+      padding-right: 0.5rem;
+    }
+    @include media-breakpoint-down(md){
+      text-align: initial;
+    }
+  }
+}

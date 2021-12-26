@@ -1,0 +1,158 @@
+// montserrat fonts
+@font-face {
+  font-family: "#{$primary-font-family}";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("#{$font-montserrat-path}/montserrat-light.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "#{$primary-font-family}";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("#{$font-montserrat-path}/montserrat-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "#{$primary-font-family}";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("#{$font-montserrat-path}/montserrat-bold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "#{$primary-font-family}";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("#{$font-montserrat-path}/montserrat-black.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+//Roboto Font
+@font-face {
+  font-family: "#{$secondary-font-family}";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("#{$font-montserrat-path}/roboto-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+// Icomoon Font
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1le8sc");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1le8sc#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1le8sc")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1le8sc")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1le8sc##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+    font-weight: bold;
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-info {
+  &:before {
+    content: $icon-info;
+  }
+}
+.icon-comment {
+  &:before {
+    content: $icon-comment;
+  }
+}
+.icon-down-arrow {
+  &:before {
+    content: $icon-down-arrow;
+  }
+}
+.icon-up-arrow {
+  &:before {
+    content: $icon-up-arrow;
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check;
+  }
+}
+.icon-right-arrow {
+  &:before {
+    content: $icon-right-arrow;
+  }
+}
+.icon-Shape {
+  &:before {
+    content: $icon-Shape;
+    color: #dff1e6;
+  }
+}
+.icon-up-arrow-solid {
+  &:before {
+    content: $icon-up-arrow-solid;
+  }
+}

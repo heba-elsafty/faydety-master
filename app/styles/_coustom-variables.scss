@@ -1,0 +1,99 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Color system
+// Gray
+$gray-200: #f8f9fa !default;
+$gray-300: #d4d9df !default;
+$gray-400: #cdd3da !default;
+$gray-500: #a2a5a9 !default;
+$gray-600: #757a7e !default;
+$gray-700: #6c757d !default;
+$gray-800: #4e5459 !default;
+$gray-900: #343a40 !default;
+
+// Theme color Override
+$green: #56b27b !default;
+$blue: #104f67 !default;
+$yellow: #fdc683 !default;
+$light-green: #dff1e6 !default;
+$grayish-blue: #3d495c !default;
+$dark-blue: #115068 !default;
+$light-blue: #f1f5f6 !default;
+$light-brown: #9f9a94 !default;
+$colors: () !default;
+
+$colors: map-merge(
+  (
+    "light-green": $light-green,
+    "grayish-blue": $grayish-blue,
+    "dark-blue": $dark-blue,
+    "light-gray": $light-blue,
+    "light-brown": $light-brown,
+  ),
+  $colors
+);
+$primary: $green !default;
+$secondary: $blue !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light-green": $light-green,
+    "grayish-blue": $grayish-blue,
+    "dark-blue": $dark-blue,
+    "light-blue": $light-blue,
+    "light-brown": $light-brown,
+    "light": $gray-200,
+    "info": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-800": $gray-800,
+    "dark": $gray-900,
+  ),
+  $theme-colors
+);
+
+// Links
+//
+// Style anchor elements.
+$link-color: theme-color("secondary") !default;
+
+// Fonts
+// Font Size
+$font-size-xs: 0.625rem; //10px
+$font-size-sm: 0.875rem; //14px
+$font-size-base: 1rem; //16px
+$font-size-med: 1.125rem; //18px
+$font-size-large: 1.25rem; //20px
+$font-size-xl: 2rem; //32px
+$font-size-xxl: 2.5rem; //40px
+$font-size-300: 18.938rem; //300px
+
+// montserrat fonts
+$font-montserrat-path: "../fonts/montserrat" !default;
+$font-roboto-path: "../fonts/roboto" !default;
+$primary-font-family: "Montserrat", sans-serif !default;
+$secondary-font-family: "Roboto", sans-serif !default;
+// Icomoon Fonts
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../fonts/icomoon" !default;
+
+$icon-twitter: "\e901";
+$icon-facebook: "\e902";
+$icon-instagram: "\e903";
+$icon-youtube: "\e904";
+$icon-linkedin: "\e905";
+$icon-info: "\e906";
+$icon-comment: "\e907";
+$icon-down-arrow: "\e908";
+$icon-up-arrow: "\e909";
+$icon-check: "\e90a";
+$icon-right-arrow: "\e90b";
+$icon-Shape: "\e900";
+$icon-up-arrow-solid: "\e90c";
+
+// Border
+$border-radius-base: 0.25rem; //4px
+$border-radius-18: 1.125rem; //18px

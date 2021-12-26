@@ -1,0 +1,11 @@
+.btn {
+  @extend .rounded-pill;
+  height: 2.75rem;
+  line-height: 1.9;
+  font-size: $font-size-base;
+  font-weight: bold;
+  padding: 0.375rem 2.7rem;
+  &.rounded{
+    border-radius: $border-radius-18 !important;
+  }
+}

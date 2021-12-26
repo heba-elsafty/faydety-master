@@ -1,0 +1,10 @@
+nav {
+  .nav-link {
+    @extend .font-weight-bold;
+  }
+}
+.navbar-brand {
+  img {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,15 @@
+// Vertical Line
+@mixin vertical-line($hight, $background ) {
+  width: 1px;
+  height: $hight;
+  background: $background;
+}
+
+// position
+@mixin position($position, $top, $bottom, $right, $left) {
+  position: $position;
+  top: $top;
+  bottom: $bottom;
+  right: $right;
+  left: $left;
+}

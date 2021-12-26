@@ -1,0 +1,21 @@
+// Filter style
+.custom-select {
+  font-family: $secondary-font-family;
+  text-align: right;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  color: $light-brown;
+  width: auto;
+  background: #fff
+  url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300' fill='%53d495c'><polygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093'/></svg>") no-repeat right 0.75rem center/8px 10px;
+  [lang='ar'] & {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+.form-control{
+  color: $gray-600;
+  font-family: $secondary-font-family;
+}

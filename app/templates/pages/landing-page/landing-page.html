@@ -1,0 +1,526 @@
+<!--  ==================================
+  personal-loans-section
+  ======================================
+-->
+<section class="mt-5 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-5">
+        <h2 class="text-primary">PERSONAL LOANS</h2>
+        <h1 class="text-secondary"> Find and compare the best deals on personal loans </h1>
+      </div>
+      <div class="col-md-6 col-lg-7 text-end">
+        <span class="icon-Shape font-size-300"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--  ==================================
+  loans-form-section
+  ======================================
+-->
+<section class="bg-primary">
+  <div class="container">
+    <form>
+      <div class="d-lg-flex justify-content-between py-3">
+        <div class="flex-fill">
+          <label class="text-white font-size-med font-weight-bold text-nowrap" for="loanAmount">Loan amount</label>
+          <div class="mb-2">
+            <input type="text" class="form-control" id="loanAmount" placeholder="e.g. 100,000">
+          </div>
+        </div>
+
+        <div class="flex-fill px-2">
+          <label class="text-white font-size-med font-weight-bold text-nowrap" for="loanDuration">Loan Duration</label>
+          <select id="loanDuration" class="form-control">
+            <option selected>Select years and months</option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="flex-fill px-2">
+          <label class="text-white font-size-med font-weight-bold text-nowrap" for="employmentType">Employment
+            Type</label>
+          <select id="employmentType" class="form-control">
+            <option selected>Select Employment Type</option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="flex-fill px-2">
+          <label class="text-white font-size-med font-weight-bold text-nowrap" for="salaryTransfer">Salary Transfer
+            Ability</label>
+          <select id="salaryTransfer" class="form-control">
+            <option selected>Select Transfer Ability</option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="flex-fill mt-2">
+          <button type="submit" class="btn btn-secondary mt-4 rounded" onclick="return false">Change</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<!--  ==================================
+  details-personal-loans-section
+  ======================================
+-->
+<section class="mt-3">
+  <div class="container">
+    <!-- Filter -->
+    <form>
+      <select class="custom-select d-flex">
+        <option selected> Sorted by Interest Rate </option>
+        <option value="1"> One </option>
+        <option value="2"> Two </option>
+        <option value="3"> Three </option>
+      </select>
+    </form>
+    <div>
+      <div class="card mb-3 bg-light border-0 shadow-sm ">
+        <div class="row no-gutters">
+          <div class="col-md-2 p-3">
+            <img src="./images/EGB-logo.png" class="img-thumbnail border-0 p-3" alt="logo">
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="card-body px-0 pt-4 pb-0">
+              <h3 class="card-title text-secondary">EG Bank I Personal Loan</h3>
+              <div class="list-group list-group-horizontal custom-list-group">
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1 active">
+                    <p>Interest Rate <i class="fas fa-info-circle text-info"></i></p>
+                    <h3 class="text-dark">19.75% <span class="font-size-sm text-grayish-blue">Decreasing</span></h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Monthly Installment</p>
+                    <h3>3,030 LE</h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Minimum Salary</p>
+                    <h3>6,059 LE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="accordion" id="moredetails1">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#moredetails1">
+                  <div class="list-group list-group-horizontal custom-list-group">
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Fees & Costs</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>Admin Fees: 2.50%</li>
+                          <li>Late Payment Fees : 1.50 Over Applied Rate </li>
+                          <li>Early Redemption Percentage: 5.00%</li>
+                          <li>Flat Interest Rate: 9.01%</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Requirements</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>National ID</li>
+                          <li>HR Letter with Hiring Date, Salary, and Position </li>
+                          <li>1 Year Stamped Bank Statement</li>
+                          <li>Age Range: 21</li>
+                          <li>Minimum Salary: 3,000</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Third Column if required</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <a class="text-primary viewMore text-center d-block py-2" data-toggle="collapse"
+                  data-target="#collapseOne" aria-expanded="false"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="card-body px-md-3 pt-md-4 pt-0 text-center mt-md-4">
+              <a href="javascript:void(0)" class="text-primary secondary-font-family mb-2">
+                <u>Check availability</u>
+              </a>
+              <p class="mb-1 text-gray-500">OR</p>
+              <button type="button" class="btn btn-primary rounded">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 bg-light border-0 shadow-sm">
+        <div class="row no-gutters">
+          <div class="col-md-2 p-3">
+            <img src="./images/EGB-logo.png" class="img-thumbnail border-0 p-3" alt="logo">
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="card-body px-0 pt-4 pb-0">
+              <h3 class="card-title text-secondary">EG Bank I Personal Loan</h3>
+              <div class="list-group list-group-horizontal custom-list-group">
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1 active">
+                    <p>Interest Rate <i class="fas fa-info-circle text-info"></i></p>
+                    <h3 class="text-dark">19.75% <span class="font-size-sm text-grayish-blue">Decreasing</span></h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Monthly Installment</p>
+                    <h3>3,030 LE</h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Minimum Salary</p>
+                    <h3>6,059 LE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="accordion" id="moredetails3">
+                <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#moredetails3">
+                  <div class="list-group list-group-horizontal custom-list-group">
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Fees & Costs</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>Admin Fees: 2.50%</li>
+                          <li>Late Payment Fees : 1.50 Over Applied Rate </li>
+                          <li>Early Redemption Percentage: 5.00%</li>
+                          <li>Flat Interest Rate: 9.01%</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Requirements</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>National ID</li>
+                          <li>HR Letter with Hiring Date, Salary, and Position </li>
+                          <li>1 Year Stamped Bank Statement</li>
+                          <li>Age Range: 21</li>
+                          <li>Minimum Salary: 3,000</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Third Column if required</h6>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <a class="text-primary viewMore text-center d-block py-2" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="card-body px-md-3 pt-md-4 pt-0 text-center mt-md-4">
+              <a href="javascript:void(0)" class="text-primary secondary-font-family mb-2">
+                <u>Check availability</u>
+              </a>
+              <p class="mb-1 text-gray-500">OR</p>
+              <button type="button" class="btn btn-primary rounded" onclick="return false">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 bg-light border-0 shadow-sm ">
+        <div class="row no-gutters">
+          <div class="col-md-2 p-3">
+            <img src="./images/EGB-logo.png" class="img-thumbnail border-0 p-3" alt="logo">
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="card-body px-0 pt-4 pb-0">
+              <h3 class="card-title text-secondary">EG Bank I Personal Loan</h3>
+              <div class="list-group list-group-horizontal custom-list-group">
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1 active">
+                    <p>Interest Rate <i class="fas fa-info-circle text-info"></i></p>
+                    <h3 class="text-dark">19.75% <span class="font-size-sm text-grayish-blue">Decreasing</span></h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Monthly Installment</p>
+                    <h3>3,030 LE</h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Minimum Salary</p>
+                    <h3>6,059 LE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="accordion" id="moredetails2">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#moredetails2">
+                  <div class="list-group list-group-horizontal custom-list-group">
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Fees & Costs</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>Admin Fees: 2.50%</li>
+                          <li>Late Payment Fees : 1.50 Over Applied Rate </li>
+                          <li>Early Redemption Percentage: 5.00%</li>
+                          <li>Flat Interest Rate: 9.01%</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Requirements</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>National ID</li>
+                          <li>HR Letter with Hiring Date, Salary, and Position </li>
+                          <li>1 Year Stamped Bank Statement</li>
+                          <li>Age Range: 21</li>
+                          <li>Minimum Salary: 3,000</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Third Column if required</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <a class="text-primary viewMore text-center d-block py-2" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="card-body px-md-3 pt-md-4 pt-0 text-center mt-md-4">
+              <a href="javascript:void(0)" class="text-primary secondary-font-family mb-2">
+                <u>Check availability</u>
+              </a>
+              <p class="mb-1 text-gray-500">OR</p>
+              <button type="button" class="btn btn-primary rounded">Apply now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 bg-light border-0 shadow-sm ">
+        <div class="row no-gutters">
+          <div class="col-md-2 p-3">
+            <img src="./images/EGB-logo.png" class="img-thumbnail border-0 p-3" alt="logo">
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="card-body px-0 pt-4 pb-0">
+              <h3 class="card-title text-secondary">EG Bank I Personal Loan</h3>
+              <div class="list-group list-group-horizontal custom-list-group">
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1 active">
+                    <p>Interest Rate <i class="fas fa-info-circle text-info"></i></p>
+                    <h3 class="text-dark">19.75% <span class="font-size-sm text-grayish-blue">Decreasing</span></h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Monthly Installment</p>
+                    <h3>3,030 LE</h3>
+                  </div>
+                </a>
+                <a href="javascript:void(0)" class="list-group-item list-group-item-action p-0">
+                  <div class="px-3 py-1">
+                    <p>Minimum Salary</p>
+                    <h3>6,059 LE</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="accordion" id="moredetails4">
+                <div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data-parent="#moredetails4">
+                  <div class="list-group list-group-horizontal custom-list-group">
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Fees & Costs</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>Admin Fees: 2.50%</li>
+                          <li>Late Payment Fees : 1.50 Over Applied Rate </li>
+                          <li>Early Redemption Percentage: 5.00%</li>
+                          <li>Flat Interest Rate: 9.01%</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Requirements</h6>
+                        <ul class="list-unstyled px-3 text-gray-800">
+                          <li>National ID</li>
+                          <li>HR Letter with Hiring Date, Salary, and Position </li>
+                          <li>1 Year Stamped Bank Statement</li>
+                          <li>Age Range: 21</li>
+                          <li>Minimum Salary: 3,000</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)" class="list-group-item list-group-item-action border-top-0">
+                      <div class="px-3 pt-4">
+                        <h6 class="font-weight-bold text-gray-600">Third Column if required</h6>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <a class="text-primary viewMore text-center d-block py-2" data-toggle="collapse"
+                  data-target="#collapseFour" aria-expanded="true"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="card-body px-md-3 pt-md-4 pt-0 text-center mt-md-4">
+              <a href="javascript:void(0)" class="text-primary secondary-font-family mb-2">
+                <u>Check availability</u>
+              </a>
+              <p class="mb-1 text-gray-500">OR</p>
+              <button type="button" class="btn btn-primary rounded">Apply now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--  ==================================
+  What you need to apply
+  ======================================
+-->
+<section class="mt-3 bg-primary">
+  <div class="container py-5 text-white">
+    <h1 class="mt-5 px-5"> What you need to apply </h1>
+    <div class="d-md-flex justify-content-center my-5 px-5">
+      <div class="d-md-flex align-items-center text-xs-center">
+        <h2> <span class="icon-check"></span> </h2>
+        <p class="col-md-8 col-lg-6 px-md-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="d-md-flex align-items-center text-xs-center">
+        <h2> <span class="icon-check"></span> </h2>
+        <p class="col-md-8 col-lg-6 px-md-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="d-md-flex align-items-center text-xs-center">
+        <h2> <span class="icon-check"></span> </h2>
+        <p class="col-md-8 col-lg-6 px-md-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--  ==================================
+ About Personal Loans
+  ======================================
+-->
+<section class="mt-3">
+  <div class="container text-secondary mb-5">
+    <h1 class="mt-5 px-5 mb-4"> About Personal Loans</h1>
+    <div class="list-group list-group-flush text-dark px-5 secondary-font-family">
+      <a href="javascript:void(0)"
+        class="list-group-item list-group-item-action d-flex justify-content-between border-top align-items-center py-3">
+        <h3 class="font-weight-normal"> Articles about personal loans in the help centre</h3>
+        <span class="icon-right-arrow text-secondary font-size-xs"></span>
+      </a>
+      <a href="javascript:void(0)"
+        class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3">
+        <h3 class="font-weight-normal">Articles about personal loans</h3>
+        <span class="icon-right-arrow text-secondary font-size-xs"></span>
+      </a>
+      <a href="javascript:void(0)"
+        class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3">
+        <h3 class="font-weight-normal">Articles about personal loans</h3>
+        <span class="icon-right-arrow text-secondary font-size-xs"></span>
+      </a>
+      <a href="javascript:void(0)"
+        class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3">
+        <h3 class="font-weight-normal">Articles about personal loans</h3>
+        <span class="icon-right-arrow text-secondary font-size-xs"></span>
+      </a>
+      <a href="javascript:void(0)"
+        class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3 border-bottom">
+        <h3 class="font-weight-normal">Articles about personal loans</h3>
+        <span class="icon-right-arrow text-secondary font-size-xs"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!--  ==================================
+  The Money Blog
+  ======================================
+-->
+<section class="mt-3 bg-dark-blue">
+  <div class="container py-5 text-white">
+    <div class="d-md-flex mt-5 px-5 mb-2  justify-content-between align-items-center">
+      <h1 class=""> The Money Blog </h1>
+      <button class="btn btn-outline-light px-4" type="button">Read More</button>
+    </div>
+    <p class="px-5 opacity-7 font-size-med mb-5"> Our blog makes understanding <br> banking a breeze… </p>
+
+    <div class="card-deck">
+      <div class="card">
+        <img src="../../../images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="text-muted secondary-font-family font-weight-bold"><u>Blog Category</u></h6>
+          <h3 class="text-secondary mt-3 mb-4">Article Title (Card)</h3>
+          <h5 class="text-dark secondary-font-family font-size-base custom-text-truncate">
+            Article Subheading Some quick
+            example text to build on the card
+            title.
+          </h5>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../../../images/2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="text-muted secondary-font-family font-weight-bold"><u>Blog Category</u></h6>
+          <h3 class="text-secondary mt-3 mb-4">Article Title (Card)</h3>
+          <p class="text-dark secondary-font-family font-size-base custom-text-truncate">
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../../../images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="text-muted secondary-font-family font-weight-bold"><u>Blog Category</u></h6>
+          <h3 class="text-secondary mt-3 mb-4">Article Title (Card)</h3>
+          <p class="text-dark secondary-font-family font-size-base custom-text-truncate">
+            This is a wider card with s
+            upporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

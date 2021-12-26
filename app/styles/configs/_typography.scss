@@ -1,0 +1,75 @@
+// Link
+a {
+  &.active {
+    font-weight: bold;
+  }
+}
+
+// Heading
+h1,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1,
+.font-size-xxlarge {
+  font-size: $font-size-xxl;
+}
+
+h2,
+.font-size-xlarge {
+  font-size: $font-size-xl;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: $font-size-large;
+}
+
+h4,
+.font-size-med {
+  font-size: $font-size-med;
+}
+
+h5,
+.font-size-base {
+  font-size: $font-size-base;
+}
+
+h6,
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+p {
+  font-family: $secondary-font-family;
+}
+
+// Font Size
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+.font-size-300 {
+  font-size: $font-size-300;
+}
+
+// Font Family
+.primary-font-family {
+  font-family: $primary-font-family;
+}
+
+.secondary-font-family {
+  font-family: $secondary-font-family;
+}
+
+// Text Align
+.text-end {
+  text-align: end;
+}
+
+@include media-breakpoint-down(xs) {
+  .text-xs-center{
+    text-align: center;
+  }
+}

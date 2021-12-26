@@ -1,0 +1,9 @@
+footer {
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+    .list-group-horizontal {
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  }
+}
